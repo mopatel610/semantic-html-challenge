@@ -9,3 +9,28 @@ h1 {
   font-style: italic;
   color: #373fff;
 }
+
+tr:nth-child(odd){
+  background-color: #ff33cc;
+}
+
+tr:nth-child(even){
+  background-color: #e495e4;
+}
+
+thead > tr, tfoot > tr {
+  font-family: 'Rock Salt', cursive;
+  color: white;
+  background-image: url("./assets/leopardskin.jpg");
+}
+
+table, tr, td {
+    table-layout: fixed;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+tbody > tr {
+  background-image: url("./assets/noise.png");
+}
