@@ -9,3 +9,8 @@ h1 {
   font-style: italic;
   color: #373fff;
 }
+
+tr:nth-child(even) {background-color: deeppink
+}
+tr:nth-child(odd) {background-color: Plum
+}
