@@ -10,7 +10,17 @@ h1 {
   color: #373fff;
 }
 
-tr:nth-child(even) {background-color: deeppink
+tables {table-layout: auto;
+width: 100%;
+border-color: #800080;
 }
-tr:nth-child(odd) {background-color: Plum
+
+tr:nth-child(even) {background-color: #ff33cc
+}
+tr:nth-child(odd) {background-color: #e495e4
+}
+
+
+thead>tr {background-image: url("./assets/leopardskin.jpg");
+color: #fff;
 }
