@@ -10,6 +10,15 @@ h1 {
   color: #373fff;
 }
 
+
+tbody{
+  text-align: center;
+  font-family: Helvetica;
+  border-style: solid;
+  border-color: #800080;
+  border-width: 2px;
+}
+
 tr:nth-child(odd){
   background-color: #ff33cc;
 }
@@ -18,14 +27,34 @@ tr:nth-child(even){
   background-color: #e495e4;
 }
 
+
+table {
+  border-style: solid;
+  border-color: #800080;
+  border-width: 2px;
+}
+
 thead>tr {
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+  border-style: solid;
+  border-color: #800080;
+  border-width: 2px;
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5)),
+  url("./assets/leopardskin.jpg");
+  width: 100%;
   color: white;
   font-family: 'Rock Salt', cursive;
+  font-size: 6pt;
+  font-weight: bolder;
+  text-align: center;
 }
 
 tfoot>tr {
-  background-image: url("./assets/leopardskin.jpg");
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5)),
+  url("./assets/leopardskin.jpg");
+  width: 100%;
   color: white;
   font-family: 'Rock Salt', cursive;
+  font-size: 6pt;
+  font-weight: bolder;
+  text-align: center;
 }
